@@ -1,2 +1,16 @@
 Study About Clinical Study
 clinical trial and geographical 
+
+angular web component
+
+patient portal
+practice portal
+integration
+admin portalclinical study
+RPM
+RCM
+self scheduling
+Precheck
+
+
+research on healthcare part

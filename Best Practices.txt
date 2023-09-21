@@ -1,0 +1,9 @@
+														BEST PRACTICES
+														
+ UI-
+ Theme And Font should similiar
+ 
+ Everything should be in logged. we should be able to trace the logged
+
+luma
+precia 

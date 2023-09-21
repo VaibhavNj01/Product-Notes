@@ -1,0 +1,47 @@
+
+	AddressEntity - ManyToOne - PersonEntity
+	
+	PersonEntity - OneToOne - PersonContactEntity
+	
+	PersonEntity - OneToOne - PersonAdditionalInformationEntity
+	
+	PatientEntity - ManyToOne - PracticeEntity
+	
+	PracticeEntity - ManyToOne - EnterpriseEntity
+	
+	PracticeEntity - OneToMany - PatientEntity
+	
+	PracticeEntity - OneToMany - LocationEntity
+	
+	PracticeEntity - OneToMany - PracticeStaffEntity
+	
+	PracticeStaffEntity - ManyToOne - StaffEntity
+	
+	StaffEntity - OneToOne - StaffTypeEntity
+	
+	StaffEntity - OneToOne - UserEntity
+	
+	CareProviderEntity - OneToMany - PrimaryCareProviderInformationEntity
+	
+	CareProviderEntity - OneToOne - PersonAdditionalInformationEntity
+	
+	CityEntity - ManyToOne - StateEntity
+	
+	ConfigEntity - ManyToOne - GroupEntity
+	
+	LocationAddressEntity - ManyToOne - LocationEntity
+	
+	PersonAdditionalInformationEntity - OneToOne - PersonEntity
+	
+    PracticeContactEntity - OneToOne - LocationEntity
+	
+	PracticeContactTypeEntity - OneToOne - PracticeEntity
+	
+	PracticeStaffEntity - ManyToOne - PracticeEntity	
+	
+	
+	
+
+	
+	
+	

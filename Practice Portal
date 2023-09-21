@@ -1,0 +1,145 @@
+									          06-09-2023
+											
+									--------PATIENT ONBOARD-------
+
+multiprofiling
+
+Guardian----->same account<---------patient(how can we diffrentiate between them/ notification will be sent same emailId)
+
+Guardian only for minor and major relationship
+guarantor for payment relation not neccesary to have ralation with patient
+
+COPAY?
+
+within the portal patient be able to see his medications
+
+sample forms in healthcare
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+												07-09-2023
+
+								 --------APPOINTMENT SCHEDULING----------
+
+online scheduling
+
+(PLANNED PARENTHOOD) - can only schedule privately no notification will send to parent.
+
+appointmnet type-
+what type of appointmnetin day - 2 new patients and 4 old patient based on that provider will decide his schedule
+
+overboooking - multiple patient can book same slot
+
+offline -    
+location
+slot date and time
+AT
+
+Recall Appointment - is on of the feature in PM system
+Follow-up appointmnet
+
+primary care provider
+refering care provider 
+care provider circles/ care team provider
+rendering provider
+
+understand the pattern and give appointmnet to patient
+
+
+----------------------------------------------------------PM/EHR--------------------------------------------------------------------------
+IDP will be managig credentials and not storing in DB(only for Staff)
+
+CRUD operation for PATIENTS.
+Mapping of staff to the all practices uder the enterprise.
+Location and time zone should match.
+-Research about EHR
+-Pathology
+-Order Management
+-Encounter
+-Patient chasrts-(immunization, Rx)
+-Mechanism For Task -
+-Routing - Of messages and staff
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+													08-09-2023
+
+										 --- PATIENT MONITORING(RPM) ----
+
+	CPT CODE
+---------------------------------------------------------------------------------------------------------------------------------------------------
+													11-09-2023
+					
+	Team Assigned
+	-------------
+  - PATIENT portal
+	 Asha
+	 Girish
+	 sanket
+	 	
+---------------------------------------------------------------------------------------------------------------------------------------------------
+													12-09-2023
+	
+	IDP-
+	All the user created in IDP    
+	Username password MFA
+	forgot passsword
+	change password management
+	forgot Username??/
+	
+	
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+													13-09-2023
+													
+keycloak should be outside the application and make call to it
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+													18-09-2023
+
+patient onboarding
+patient invitation
+
+
+02024403062
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+													20-09-2023
+	
+scribe
+plantparenthood
+
+
+Patient onboarding-
+problem - 
+
+member inactive
+- invitation for inactive memember through email
+- do centralized cache
+
+acitvation, insurance
+when was invitationsend should be recorded
+every 15 days notification send --nish
+GUID??
+new guid will generate and new expiration
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+													21-09-2023
+send email practice to portal 
+inactive
+processsing
+problem - email wrong 
+
+---------------------
+last time invitation send record should be in db
+invitation transaction (is and reson) if you reentry one more id will bre created
+
+invitation send time should be recorded date.   9.43
+after deleting how data should be show
+once a member is activated the member_inactive se data soft delete
+
+after email why should new record created
+and if created should be 2 column and ststus should be there which defines which email should be send.
+
+member_invite_scheduler - expirydate should be seperate 
