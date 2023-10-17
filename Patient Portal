@@ -121,7 +121,7 @@ member inactive
 acitvation, insurance
 when was invitationsend should be recorded
 every 15 days notification send --nish
-GUID??
+GUID??      
 new guid will generate and new expiration
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -143,3 +143,10 @@ after email why should new record created
 and if created should be 2 column and ststus should be there which defines which email should be send.
 
 member_invite_scheduler - expirydate should be seperate 
+one more case is patient id not send it will send after actvation
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+												25-09-2023
+

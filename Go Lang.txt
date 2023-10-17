@@ -1,0 +1,20 @@
+Use go-kit as the framework for developing and structuring the components of each service.
+
+microservices?
+collectionframework?
+crud?
+kafka in our service with grpc
+
+Gin REST call testing -report(GORM)
+Mux Rest call testing -report(GORM)
+Gin with GIN grpc testing - report(GORM-Sqlboiler)
+
+--------------------------------------------------------------------------\
+GIN
+-
+
+
+
+
+
+	

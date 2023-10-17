@@ -1,0 +1,18 @@
+
+Zookeper server :
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+kafka server :
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+create topic
+D:\kafka\bin\windows>kafka-topics.bat --create  --bootstrap-server localhost:9092 --topic test
+
+produce topic
+D:\kafka\bin\windows>kafka-console-producer.bat  --broker-list localhost:9092 --topic test
+
+consume topic
+D:\kafka\bin\windows>kafka-console-consumer.bat --topic test --bootstrap-server localhost:9092 --from-beginning
+
+INSERT INTO member (firstname, lastname, email)
+VALUES ('John', 'Doe', 'johndoe@example.com');
