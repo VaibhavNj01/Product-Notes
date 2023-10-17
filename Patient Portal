@@ -148,5 +148,23 @@ one more case is patient id not send it will send after actvation
 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-												25-09-2023
-
+												
+1) GET v1/api/practice/{practiceId}/patient/{patientId}
+response{
+	fname
+	lname
+	--
+	--
+	--
+	}
+	
+2)check Activation
+GET v1/api/practice/{practiceId}/patient/{patientId}
+response
+	{
+		Activated:True
+	}
+	
+	   
+	   
+-----------------------------------------------------------------------------------------------

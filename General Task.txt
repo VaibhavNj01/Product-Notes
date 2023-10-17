@@ -14,3 +14,5 @@ Precheck
 
 
 research on healthcare part
+lazy loading should be implemented
+

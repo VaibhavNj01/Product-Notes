@@ -1,0 +1,64 @@
+send email template
+
+URL:/sendNotificationService
+Method:POST
+RequestBody:
+{
+"practiceId" : 1001,
+"patientId" : 2001,
+"memberInactiveId" : 3001,
+"firstName" : "jhon",
+"lastName" : "smith",
+"email" : "jhon@gmail.com",
+"guid" : "6B29FC40-CA47-1067-B31D-00DD010662DA"
+
+}
+ResponseBody:200 OK
+{
+guid: "6B29FC40-CA47-1067-B31D-00DD010662DA"
+status: "succesful"
+responseMessage: "Published successfully "
+}
+---------------------------------------------------------------------------
+URL:/sendNotificationService
+Method:
+RequestBody:
+{
+"practiceId" : 1001,
+"patientId" : 2001,
+"memberInactiveId" : 3001,
+"firstName" : "jhon",
+"lastName" : "smith",
+"email" : "jhon@gmail.com",
+"guid" : "6B29FC40-CA47-1067-B31D-00DD010662DA"
+}
+ResponseBody:404 Not Found
+{
+guid: "6B29FC40-CA47-1067-B31D-00DD010662DA"
+status: "Failure"
+responseMessage: "An error occurred while sending the email invitations."
+}
+
+--------------------------------------------------------------------------------
+
+URL:/sendNotificationService
+Method:POST
+RequestBody:
+{
+"practiceId" : 1001,
+"patientId" : 2001,
+"memberInactiveId" : 3001,
+"firstName" : "jhon",
+"lastName" : "smith",
+"email" : "jhon@gmail.com",
+"guid" : "6B29FC40-CA47-1067-B31D-00DD010662DA"
+}
+ResponseBody:500 Internal Server Error
+{
+guid: "6B29FC40-CA47-1067-B31D-00DD010662DA"
+status: "Failure"
+responseMessage: "An error occurred while sending the email invitations."
+}
+
+
+	

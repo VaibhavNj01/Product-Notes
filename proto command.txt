@@ -1,0 +1,15 @@
+
+protobuf
+
+	protoc --go_out=. --go-grpc_out=. user.proto <---- command for creating protobuf file
+	
+	option go_package = "GIN Rest/proto/user";  <-------- provide directory where file should be create.	
+	
+	
+	protoc --go_out=src/main/proto --go_opt=paths=source_relative --
+go-grpc_out=src/main/proto --go-grpc_opt=paths=source_relative src\main\proto\schema.proto
+
+
+protoc --go_out=src\main\resources --go_opt=paths=source_relative --go-grpc_out=src\main\resources --go-grpc_opt=paths=source_relative main\proto\schema.proto
+---------------------------------------------------------------------------------------------------------------
+

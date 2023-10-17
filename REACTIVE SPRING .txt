@@ -6,3 +6,17 @@ ADDiTIONAL DEPENDENCY
 	  <artifactId>r2dbc-postgresql</artifactId>
 	  <version>0.8.13.RELEASE</version>
 	 </dependency>
+	 
+------------------------------------------------------------------------------
+
+Description:
+
+Parameter 0 of constructor in com.optiviohealth.service.PatientServiceImpl required a bean of type 'com.optiviohealth.repository.PatientRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.optiviohealth.repository.PatientRepository' in your configuration.
+
+---> @ComponentScan("com.optiviohealth.repository")
+     pacakage should pointing your repository so spring can easily find 

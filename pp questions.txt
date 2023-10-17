@@ -92,7 +92,7 @@ if not found
 	
      }
 
-https://dev-patient-portal.com/practice/{practiceId}/patient/{patientId}/verify?guid=48583286-199e-405b-8cbd-0197ff178fc2
+https://dev-patient-portal.com/practices/{practiceId}/patient/{patientId}/verify?guid=48583286-199e-405b-8cbd-0197ff178fc2
 
-https://dev-patient-portal.com/practice/{practiceId}/activate?lang=EN&uuid=48583286-199e-405b-8cbd-0197ff178fc2&activationCode=7HU5A83G
+https://dev-patient-portal.com/practices/{practiceId}/activate?lang=EN&uuid=48583286-199e-405b-8cbd-0197ff178fc2&activationCode=7HU5A83G
 
